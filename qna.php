@@ -13,14 +13,14 @@
 <body>
   <header class="container main-header">
   <div class="logo-holder">
-    <a href="index.html"><img src="img/logo.png" height="40 "></a>
+    <a href="index.php"><img src="img/logo.png" height="40 "></a>
   </div>
   <nav class="main-nav">
     <ul class="main-menu" id="main-menu container">
-      <li><a href="index.html">Domov</a></li>
-      <li><a href="portfolio.html">Portfólio</a></li>
+      <li><a href="index.php">Domov</a></li>
+      <li><a href="portfolio.php">Portfólio</a></li>
       <li><a href="qna.html">Q&A</a></li>
-      <li><a href="kontakt.html">Kontakt</a></li>
+      <li><a href="kontakt.php">Kontakt</a></li>
     </ul>
     <a class="hamburger" id="hamburger">
       <i class="fa fa-bars"></i>
@@ -40,21 +40,14 @@
         </div>
       </div>
     </section>
-      <section class="container">
+     < <section class="container">
       <div class="accordion">
-        <div class="question">Otázka 1</div>
-        <div class="answer">Odpoveď 1</div>
+          <?php include "functions.php" ?>
+          <?php insertQnA();?>
       </div>
-      <div class="accordion">
-        <div class="question">Otázka 2</div>
-        <div class="answer">Odpoveď 2</div>
-      </div>
-      <div class="accordion">
-        <div class="question">Otázka 3</div>
-        <div class="answer">Odpoveď 3</div>
-      </div>
-    </section>
-    </section>
+
+
+    </section>>
   </div>
   </main>
   <footer class="container bg-dark text-white">

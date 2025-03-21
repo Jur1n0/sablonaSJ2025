@@ -1,0 +1,12 @@
+{
+  "otazky": [
+    "Ako nás kontaktovať?",
+    "Na čo slúži json súboor?",
+    "V akej krajine sa nachádzame?"
+  ],
+  "odpovede": [
+    "Telefónom alebo emailom na záložke kontakty",
+    "Presne na toto :D",
+    "Samozrejme, že na Slovensku"
+  ]
+}
